@@ -18,13 +18,13 @@ const config: Config = {
       },
       colors: {
         primary: {
-          main: '#127369',
-          dark: '#10323B',
+          // main: '#127369',
+          dark: '#10513B',
         },
         secondary: {
-          light: '#8AA6A3',
-          main: '#4C5958',
-          dark: '#BFBFBF',
+          light: '#BABD0D',
+          // main: '#4C5958',
+          dark: '#14300D',
         },
         white: '#fff',
       },

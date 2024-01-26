@@ -12,7 +12,7 @@ import foto from '@/assets/foto de perfil.jpeg'
 
 export default function Home() {
   return (
-    <div className="text-lg grid grid-cols-2 items-center text-center p-16 bg-primary-dark h-screen">
+    <div className="text-lg grid grid-cols-2 items-center text-center p-16 bg-gradient-to-b to-bg-primary-dark from-secondary-main h-screen">
       {/* Esquerda */}
       <div className="grid gap-16">
         {/* Nome e Foto */}

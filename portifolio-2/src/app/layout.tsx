@@ -7,11 +7,7 @@ export const metadata: Metadata = {
   description: 'Felipe Bignoto - Desenvolvedor',
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className="">

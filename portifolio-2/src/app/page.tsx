@@ -13,9 +13,9 @@ import Projects from '@/components/projects'
 
 export default function Home() {
   return (
-    <div className="text-lg grid grid-cols-2 items-center bg-gradient-to-b to-bg-primary-dark from-secondary-dark text-center p-16 h-screen">
+    <div className="text-lg grid  lg:grid-cols-2 items-center text-center  h-screen">
       {/* Esquerda */}
-      <div className="grid gap-16 fixed top-16 ">
+      <div className="grid m-16 gap-16 lg:fixed top-16 z-10">
         {/* Nome e Foto */}
         <div className="flex justify-center gap-8">
           {/* Nome */}
@@ -72,7 +72,10 @@ export default function Home() {
       </div>
 
       {/* Direita */}
-      <Projects />
+      <div className="z-10">
+        <Projects />
+      </div>
+      <div className="fixed h-screen w-screen bg-gradient-to-b to-bg-primary-dark from-secondary-dark z-0"></div>
     </div>
   )
 }

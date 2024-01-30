@@ -16,7 +16,7 @@ import Icon from '@/components/Icon'
 export default function Home() {
   return (
     <div className="text-lg grid lg:grid-cols-2 items-center text-center justify-center h-screen gap-16">
-      <div className="fixed h-screen w-screen   bg-primary-dark z-0"></div>
+      <div className="fixed h-screen w-screen text-white  bg-primary-dark z-0"></div>
       {/* Esquerda */}
       <div className="flex z-10 justify-center">
         <div className="grid p-4 pt-8 md:p-16  lg:fixed top-0 z-10 lg:w-2/4 h-full gap-16">

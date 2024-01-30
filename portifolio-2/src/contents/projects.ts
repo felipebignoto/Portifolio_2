@@ -1,12 +1,26 @@
 export interface ProjectItemProps {
   name: string
   description: string
-  repositoryUrl: string
+  repositoryUrl?: string
   deployUrl?: string
   stacks: string[]
 }
 
 export const projects = [
+  {
+    name: 'Site para escritório de advocacia',
+    description:
+      'Trabalho frelancer que desenvolvi um site completo com blog para um escritório, contendo design intuitivo e funcionalidades avançadas para destacar a identidade do escritório e manter os clientes informados.',
+    deployUrl: 'https://www.consulmagnoeassis.com.br/',
+    stacks: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind',
+      'Hygraph',
+      'GraphQl',
+    ],
+  },
   {
     name: 'E-commerce',
     description:

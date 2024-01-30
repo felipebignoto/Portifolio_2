@@ -1,6 +1,6 @@
 import { ProjectItemProps } from '@/contents/projects'
 import { Github, MoveUpRight } from 'lucide-react'
-import Link from 'next/link'
+import Icon from './Icon'
 
 export default function ProjectItem({
   project,
@@ -8,39 +8,33 @@ export default function ProjectItem({
   project: ProjectItemProps
 }) {
   return (
-    <div className="p-3 grid gap-8 rounded-2xl bg-primary-dark border-bg-secondary min-w-max h-fit justify-center">
-      <div className=" grid gap-2 text-center max-w-lg">
-        <span>{project.name}</span>
-        <span>{project.description}</span>
-        <span className="flex gap-2 justify-center">
+    <div className="p-2 grid gap-8 rounded-2xl border-2 border-secondary-light justify-center ">
+      <div className=" grid gap-4 text-center md:max-w-lg">
+        {/* Nome */}
+        <div className="grid gap-4">
+          <span className="underline">{project.name}</span>
+          <span className="flex ">{project.description}</span>
+        </div>
+
+        {/* Stacks */}
+        <div className="flex flex-col gap-2 md:flex-row justify-center text-center items-center">
           {project.stacks.map((stack, i) => {
             return (
-              <span
-                className="text-sm text-secondary-light rounded-full p-2"
-                key={i}
-              >
+              <span className="text-sm text-secondary-light" key={i}>
                 {stack}
               </span>
             )
           })}
-        </span>
+        </div>
       </div>
 
+      {/* Links */}
       <div className="flex gap-8 justify-center">
         {project.repositoryUrl && (
-          <Link href={project.repositoryUrl} prefetch={false} target="_blank">
-            <Github />
-          </Link>
+          <Icon icon={Github} url={project.repositoryUrl} />
         )}
         {project.deployUrl && (
-          <Link
-            href={project.deployUrl}
-            prefetch={false}
-            target="_blank "
-            className="flex"
-          >
-            <MoveUpRight />
-          </Link>
+          <Icon icon={MoveUpRight} url={project.deployUrl} />
         )}
       </div>
     </div>

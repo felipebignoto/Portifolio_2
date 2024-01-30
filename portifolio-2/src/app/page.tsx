@@ -10,22 +10,26 @@ import {
 import Image from 'next/image'
 import foto from '@/assets/foto de perfil.jpeg'
 import Projects from '@/components/projects'
+import SummaryItem from '@/components/summaryItem'
+import Icon from '@/components/Icon'
 
 export default function Home() {
   return (
-    <div className="text-lg grid lg:grid-cols-2 items-center text-center justify-center h-screen">
+    <div className="text-lg grid lg:grid-cols-2 items-center text-center justify-center h-screen gap-16">
       {/* Esquerda */}
-      <div className="flex">
-        <div className="grid p-16 gap-16 lg:fixed top-16 z-10 ">
+      <div className="flex z-10 justify-center">
+        <div className="grid p-4 pt-8 md:p-16  lg:fixed top-0 z-10 lg:w-2/4 h-full gap-16">
           {/* Nome e Foto */}
-          <div className="flex justify-center gap-8">
+          <div className=" grid md:flex justify-center items-center gap-8 ">
             {/* Nome */}
-            <div className="flex-col self-center">
-              <h1 className="text-4xl">Felipe Bignoto Palacio</h1>
+            <div className="grid md:self-center ">
+              <h1 className="flex text-2xl md:text-4xl underline">
+                Felipe Bignoto Palacio
+              </h1>
               <span>Desenvolvedor</span>
             </div>
             {/* Foto */}
-            <div className="flex gap-8">
+            <div className="flex gap-8 justify-center">
               <Image
                 alt="Foto de perfil"
                 src={foto}
@@ -38,43 +42,42 @@ export default function Home() {
           <div className=" items-center flex justify-center">
             {/* Resumo */}
             <div className="grid gap-4">
-              <div className="flex gap-4">
-                <BookOpen className="text-secondary-light" />
-                <span>
-                  Estudante de Bacharelado Interdisciplinar em Ciências Exatas
-                  na UFJF
-                </span>
-              </div>
+              <SummaryItem
+                icon={BookOpen}
+                texto="Estudante de Bacharelado Interdisciplinar em Ciências Exatas
+                  na UFJF"
+              />
 
-              <div className="flex gap-4">
-                <Book className="text-secondary-light" />
-                <span>Cursando Engenharia de Software na UniAcademia</span>
-              </div>
+              <SummaryItem
+                icon={Book}
+                texto="Cursando Engenharia de Software na UniAcademia"
+              />
 
-              <div className="flex gap-4">
-                <Code2 className="text-secondary-light" />
-                <span>
-                  Possuo conhecimentos sólidos em HTML, CSS e JavaScript
-                </span>
-              </div>
+              <SummaryItem
+                icon={Code2}
+                texto="Possuo conhecimentos sólidos em HTML, CSS, JavaScript e TypeScript"
+              />
 
-              <div className="flex gap-4">
-                <Laptop className="text-secondary-light" />
-                <span>Aprofundando meus estudos em React e Next.js</span>
-              </div>
+              <SummaryItem
+                icon={Laptop}
+                texto="Aprofundando meus estudos em React e Next.js"
+              />
             </div>
           </div>
 
           <div className="flex justify-center gap-8 bottom-0">
-            <Linkedin className="hover:text-secondary-light" />
-            <Github />
-            <Mail />
+            <Icon
+              icon={Linkedin}
+              url="https://www.linkedin.com/in/felipe-bignoto-palacio/"
+            />
+            <Icon icon={Github} url="https://github.com/felipebignoto" />
+            <Icon icon={Mail} url="mailto:felipebignoto@gmail.com" />
           </div>
         </div>
       </div>
 
       {/* Direita */}
-      <div className="flex mx-auto w-full justify-center ">
+      <div className="flex mx-auto justify-center z-10">
         <Projects />
       </div>
       <div className="fixed h-screen w-screen bg-gradient-to-b to-bg-primary-dark from-secondary-dark z-0"></div>

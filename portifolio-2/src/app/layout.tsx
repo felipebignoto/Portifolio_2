@@ -3,7 +3,7 @@ import './globals.css'
 import Home from './page'
 
 export const metadata: Metadata = {
-  title: 'Felipe BignotoS',
+  title: 'Felipe Bignoto',
   description: 'Felipe Bignoto - Desenvolvedor',
 }
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout() {
   return (
     <html lang="en">
-      <body className="">
+      <body className="text-white">
         <Home />
       </body>
     </html>

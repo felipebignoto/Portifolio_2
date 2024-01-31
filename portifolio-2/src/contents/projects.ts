@@ -24,7 +24,7 @@ export const projects = [
   {
     name: 'E-commerce',
     description:
-      'Projeto de um E-Commerce que mostra os produtos disponíveis e para adicionar os itens no carrinho é necessário se registrar e fazer login.',
+      'Projeto de um E-Commerce que mostra os produtos disponíveis e carrinho de compras e login.',
     repositoryUrl: 'https://github.com/felipebignoto/E-Commerce',
     deployUrl: 'https://e-commerce-felipebignoto.vercel.app/',
     stacks: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'Prisma', 'Clerk'],

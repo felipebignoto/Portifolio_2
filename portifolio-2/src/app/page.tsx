@@ -27,7 +27,7 @@ export default function Home() {
               <h1 className="flex text-2xl md:text-4xl underline">
                 Felipe Bignoto Palacio
               </h1>
-              <span>Desenvolvedor</span>
+              <span>Desenvolvedor Front-end</span>
             </div>
             {/* Foto */}
             <div className="flex gap-8 justify-center">
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
 
           {/* Resumo */}
-          <div className=" items-center flex justify-center">
+          <div className=" items-center flex text-justify md:justify-center">
             {/* Resumo */}
             <div className="grid gap-4">
               <SummaryItem
@@ -56,7 +56,7 @@ export default function Home() {
 
               <SummaryItem
                 icon={Code2}
-                texto="Possuo conhecimentos sólidos em HTML, CSS, JavaScript e TypeScript"
+                texto="Possuo conhecimentos sólidos em HTML, CSS, JavaScript, TypeScript e Tailwind"
               />
 
               <SummaryItem

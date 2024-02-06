@@ -8,6 +8,22 @@ export interface ProjectItemProps {
 
 export const projects = [
   {
+    name: 'Sistema de agendamento para barbearias',
+    description:
+      'Projeto de um sistema de reservas online para barbearias contendo página de agendamentos, sistema de login, barra de pesquisa e responsividade',
+    deployUrl: 'https://barber-shop-fbp.vercel.app/',
+    stacks: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind',
+      'Prisma',
+      'SupaBase',
+      'Shadcn/ui',
+    ],
+    repositoryUrl: 'https://github.com/felipebignoto/FSW-BarberShop',
+  },
+  {
     name: 'Site para escritório de advocacia',
     description:
       'Trabalho frelancer que desenvolvi um site completo com blog para um escritório, contendo design intuitivo e funcionalidades avançadas para destacar a identidade do escritório e manter os clientes informados.',

@@ -22,7 +22,7 @@ export const projects = [
     ],
   },
   {
-    name: 'Sistema de agendamento para barbearias',
+    name: 'Sistema de reservas para barbearias',
     description:
       'Projeto de um sistema de reservas online para barbearias contendo página de agendamentos, sistema de login, barra de pesquisa e responsividade',
     deployUrl: 'https://barber-shop-fbp.vercel.app/',

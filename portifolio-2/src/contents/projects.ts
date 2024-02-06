@@ -8,6 +8,20 @@ export interface ProjectItemProps {
 
 export const projects = [
   {
+    name: 'Site para escritório de advocacia',
+    description:
+      'Trabalho frelancer que desenvolvi um site completo com blog para um escritório, contendo design intuitivo e funcionalidades avançadas para destacar a identidade do escritório e manter os clientes informados.',
+    deployUrl: 'https://www.consulmagnoeassis.com.br/',
+    stacks: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind',
+      'Hygraph',
+      'GraphQl',
+    ],
+  },
+  {
     name: 'Sistema de agendamento para barbearias',
     description:
       'Projeto de um sistema de reservas online para barbearias contendo página de agendamentos, sistema de login, barra de pesquisa e responsividade',
@@ -22,20 +36,6 @@ export const projects = [
       'Shadcn/ui',
     ],
     repositoryUrl: 'https://github.com/felipebignoto/FSW-BarberShop',
-  },
-  {
-    name: 'Site para escritório de advocacia',
-    description:
-      'Trabalho frelancer que desenvolvi um site completo com blog para um escritório, contendo design intuitivo e funcionalidades avançadas para destacar a identidade do escritório e manter os clientes informados.',
-    deployUrl: 'https://www.consulmagnoeassis.com.br/',
-    stacks: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'Tailwind',
-      'Hygraph',
-      'GraphQl',
-    ],
   },
   {
     name: 'E-commerce',

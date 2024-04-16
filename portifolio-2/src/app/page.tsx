@@ -2,6 +2,7 @@ import {
   Book,
   BookOpen,
   Code2,
+  File,
   Github,
   Laptop,
   Linkedin,
@@ -73,6 +74,10 @@ export default function Home() {
             />
             <Icon icon={Github} url="https://github.com/felipebignoto" />
             <Icon icon={Mail} url="mailto:felipebignoto@gmail.com" />
+            <Icon
+              icon={File}
+              url="https://drive.google.com/file/d/1RfgMU8oWfMGV-0xLPEko1oksQQN3R6qg/view?usp=sharing"
+            />
           </div>
         </div>
       </div>

@@ -76,7 +76,7 @@ export default function Home() {
             <Icon icon={Mail} url="mailto:felipebignoto@gmail.com" />
             <Icon
               icon={File}
-              url="https://drive.google.com/file/d/1RfgMU8oWfMGV-0xLPEko1oksQQN3R6qg/view?usp=sharing"
+              url="https://drive.google.com/file/d/1eO3Ghe300lnoUFdaduEhqq25CAtZI2aa/view?usp=sharing"
             />
           </div>
         </div>

@@ -7,6 +7,7 @@ import {
   Laptop,
   Linkedin,
   Mail,
+  MessageCircle,
 } from 'lucide-react'
 import Image from 'next/image'
 import foto from '@/assets/foto de perfil.jpeg'
@@ -57,12 +58,12 @@ export default function Home() {
 
               <SummaryItem
                 icon={Code2}
-                texto="Possuo conhecimentos sólidos em HTML, CSS, JavaScript, TypeScript e Tailwind"
+                texto="Possuo conhecimentos sólidos em HTML, CSS, JavaScript, TypeScript, Tailwind, React e Next.js"
               />
 
               <SummaryItem
                 icon={Laptop}
-                texto="Aprofundando meus estudos em React e Next.js"
+                texto="Aprofundando meus estudos em Python, Fast API e Machine Learning"
               />
             </div>
           </div>
@@ -78,6 +79,7 @@ export default function Home() {
               icon={File}
               url="https://drive.google.com/file/d/1eO3Ghe300lnoUFdaduEhqq25CAtZI2aa/view?usp=sharing"
             />
+            <Icon icon={MessageCircle} url="https://wa.me/5532991689844" />
           </div>
         </div>
       </div>

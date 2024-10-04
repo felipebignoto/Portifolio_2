@@ -22,6 +22,20 @@ export const projects = [
     ],
   },
   {
+    name: 'Gerenciamento de Usuários',
+    description:
+      'Este projeto tem o objetivo de facilitar o gerenciamento de usuários, oferecendo operações básicas de CRUD (Create, Read, Update, Delete). A aplicação permite a criação, visualização, atualização e exclusão de usuários em um sistema simples, com uma interface amigável e intuitiva.',
+    repositoryUrl: 'https://github.com/felipebignoto/desafio-tecnico',
+    stacks: ['Next', 'React', 'TypeScript', 'Tailwind', 'Node', 'Mongo DB'],
+  },
+  {
+    name: 'Dieta AI',
+    description:
+      'Este projeto tem o objetivo de facilitar o gerenciamento de dieta, oferecendo uma sugestão de dieta fornecida pelo Google Gemini com base nas informações pessoais fornecidas.',
+    repositoryUrl: 'https://github.com/felipebignoto/dieta_ia',
+    stacks: ['React Native', 'Expo', 'Google Gemini'],
+  },
+  {
     name: 'Sistema de reservas para barbearias',
     description:
       'Projeto de um sistema de reservas online para barbearias contendo página de agendamentos, sistema de login, barra de pesquisa e responsividade',
@@ -44,37 +58,5 @@ export const projects = [
     repositoryUrl: 'https://github.com/felipebignoto/E-Commerce',
     deployUrl: 'https://e-commerce-felipebignoto.vercel.app/',
     stacks: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'Prisma', 'Clerk'],
-  },
-  {
-    name: 'Sistema de agendamento online para barbearias',
-    description:
-      'Esse projeto foi um trabalho em grupo da faculdade que desenvolvemos um sistema com 2 usuários (cliente e barbeiro) e as funcionalidades de gerenciar agendamentos, sistema de registro e login e dashboard para visualizar as métricas,',
-    repositoryUrl: 'https://github.com/charmingruby/quasar',
-    stacks: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'Tailwind',
-      'Prisma',
-      'Next-Auth',
-      'SQLite ',
-    ],
-  },
-  {
-    name: 'Cardápio online',
-    description:
-      'Projeto de uma página responsiva de um restaurante contendo carrinho de compras, cardápio, link para reservas e depoimentos.',
-    repositoryUrl:
-      'https://github.com/felipebignoto/Cardapio-Online-com-WhatsApp',
-    deployUrl: 'https://cardapio-fbp.netlify.app/',
-    stacks: ['HTML', 'CSS', 'JavaScript', 'JQuery', 'Bootstrap'],
-  },
-  {
-    name: 'Página web de uma Pizzaria',
-    description:
-      'Projeto de uma página responsiva de uma pizzaria contendo planos, informações e área de contato.',
-    repositoryUrl: 'https://github.com/felipebignoto/Pizzaria',
-    deployUrl: 'https://pizzaria-fbp.netlify.app/',
-    stacks: ['HTML', 'CSS', 'JavaScript', 'JQuery'],
   },
 ]

@@ -1,3 +1,7 @@
+import foto from '@/assets/foto felipe.jpeg'
+import Icon from '@/components/Icon'
+import Projects from '@/components/projects'
+import SummaryItem from '@/components/summaryItem'
 import {
   Book,
   BookOpen,
@@ -10,10 +14,6 @@ import {
   MessageCircle,
 } from 'lucide-react'
 import Image from 'next/image'
-import foto from '@/assets/foto de perfil.jpeg'
-import Projects from '@/components/projects'
-import SummaryItem from '@/components/summaryItem'
-import Icon from '@/components/Icon'
 
 export default function Home() {
   return (

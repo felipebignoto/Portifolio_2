@@ -22,6 +22,14 @@ export const projects = [
     ],
   },
   {
+    name: 'Loto AI',
+    description:
+      'Este projeto tem o objetivo de facilitar o controle de apostas de loteria através da geração de uma planilha de excel com as apostas utilizando fotos dos bilhetes.',
+    deployUrl: 'https://loto-ai.vercel.app/',
+    repositoryUrl: 'https://github.com/felipebignoto/loto_ai',
+    stacks: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'Google Gemini'],
+  },
+  {
     name: 'Gerenciamento de Usuários',
     description:
       'Este projeto tem o objetivo de facilitar o gerenciamento de usuários, oferecendo operações básicas de CRUD (Create, Read, Update, Delete). A aplicação permite a criação, visualização, atualização e exclusão de usuários em um sistema simples, com uma interface amigável e intuitiva.',
